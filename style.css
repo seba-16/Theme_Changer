@@ -1,0 +1,17 @@
+
+.navbar-brand{
+    padding-left: 100px;
+    font-family: 'Long Cang', cursive;
+    font-size: 50px;
+
+}
+#color{
+    width: 100%;
+    
+}
+img{
+    width: 100%;
+}
+.cycle{
+    background: chartreuse;
+}

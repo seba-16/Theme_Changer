@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Theme Changer</title>
+    <!--bOOTSTRAP CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Long+Cang&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar theme">
+        <div class="navbar-brand">
+            Theme Changer
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row mt-5 ">
+            <div class="col-md-4 align-self-center offset-md-3">
+                <h1>Theme Changer</h1>
+                <div class="current_theme mt-3">Current Color Theme is  <mark><span id="current_color">_ _ _ _ _ _ _</span>  </mark>
+                </div>
+                <div class="card">
+                    <input type="color" class="form-control mt-3" id="color">
+                    <button class="btn btn-warning btn-lg mt-3 theme" id="button"> Change Color</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="container" id="product">
+        <div class="row ">
+            <div class="col-md-4 mt-5">
+                <div>
+                    <img src="1.jpg">
+                    <h3>Cycle</h3>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5">
+                <div>
+                    <img src="2.jpg">
+                    <h3>Cycle</h3>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5">
+                <div>
+                    <img src="3.jpg">
+                    <h3>Cycle</h3>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
